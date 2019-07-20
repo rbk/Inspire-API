@@ -1,0 +1,33 @@
+service: inspire-api
+provider:
+  name: aws
+  runtime: python3.7
+functions:
+  all:
+    handler: handler.all
+    events:
+      - http:
+          path: quotes
+          method: get
+          cors: true
+
+  one:
+    handler: handler.one
+    events:
+      - http:
+          path: quotes/{id}
+          method: get
+          cors: true
+plugins:
+  - serverless-domain-manager
+
+custom:
+  pythonRequirements:
+    dockerizePip: true
+  customDomain:
+    domainName: inspire.richardkeller.net
+    stage: dev
+    basePath: api
+    certificateName: '*.richardkeller.net'
+    createRoute53Record: true
+    endpointType: 'regional'

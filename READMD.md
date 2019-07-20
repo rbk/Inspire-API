@@ -47,3 +47,10 @@ Response {
 }
 
 ```
+
+
+## Setup Website
+
+https://docs.aws.amazon.com/AmazonS3/latest/dev/website-hosting-custom-domain-walkthrough.html
+
+https://stackoverflow.com/questions/45044147/use-domain-registered-on-google-domains-to-point-to-amazon-s3-static-website

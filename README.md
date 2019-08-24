@@ -1,4 +1,4 @@
-# READMD
+# Inspire API (inspireapi.com)
 
 I'm always needing a simple API to pull quotes. So I created one.
 The purpose of this website is to provided inspiration through

@@ -1,5 +1,21 @@
 # Inspire API (inspireapi.com)
 
+## TODO
+- [ ] Ability to email API keys
+- [ ] Rate limit by API keys
+- [ ] Limit my api to my domain
+- [ ] Form to request key
+- [ ] Create simple on page docs
+
+***scope creep***
+
+- [ ] Curation contribution notes
+- [ ] History API for website -> https://developer.mozilla.org/en-US/docs/Web/API/History_API
+- [ ] Add motion and imagery to website
+- [ ] Design Inspire logo
+- [ ] Setup daily emailer
+
+
 I'm always needing a simple API to pull quotes. So I created one.
 The purpose of this website is to provided inspiration through
 the words of thought leaders from around the world.

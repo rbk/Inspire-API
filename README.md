@@ -6,6 +6,9 @@
 - [ ] Limit my api to my domain
 - [ ] Form to request key
 - [ ] Create simple on page docs
+- [ ] Put API on domain 
+    - https://inspireapi.com/quote/{id}
+    - https://inspireapi.com/quote/random
 
 ***scope creep***
 

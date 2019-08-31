@@ -3,11 +3,11 @@ provider:
   name: aws
   runtime: python3.7
 functions:
-  all:
-    handler: handler.all
+  rand:
+    handler: handler.rand
     events:
       - http:
-          path: quotes
+          path: quotes/random
           method: get
           cors: true
 
